@@ -1,0 +1,44 @@
+.top-section{
+    border-bottom: 1px solid black;
+}
+.top-icons{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.top-icons-link{
+    color: rgb(71, 70, 70);
+    margin-right: 2.5rem;
+}
+.envelope-icon{
+    color: grey;
+    justify-content: end;
+    text-align: end;
+}
+.mail-link{
+    color: black;
+    text-decoration: none;
+}
+.mail-logo{
+    height: 100%;
+    align-items: center;
+}
+.mail-id{
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
+
+
+
+.nav-logo{
+    color: darkblue;
+}
+
+.navbar-collapse{
+    margin-left: 17rem;
+}
+
+.navbar-nav{
+    margin-left: -1rem;
+}
+

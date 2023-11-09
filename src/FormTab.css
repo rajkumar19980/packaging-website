@@ -1,0 +1,70 @@
+.container{
+    text-align: center;
+}
+.heading-footer{
+    margin: 5%;
+}
+.heading-content{
+    color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sales,.services{
+    border: 1px solid black;
+    margin: 1rem 0rem;
+    height: 3rem;
+    width: 5rem;
+    font-size: large;
+    font-weight: 600;
+}
+.sales{
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 12px;
+    
+}
+.services{
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.col-md-12 input{
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 5px; 
+    width: 50%; 
+    margin-top: 1rem; 
+    padding-left: 10px; 
+    padding-bottom: 10px;
+    line-height: 1.5rem;
+}
+.col-md-12 textarea{
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 5px; 
+    width: 50%; 
+    margin-top: 2rem; 
+    padding-left: 10px; 
+    padding-bottom: 10px;
+    line-height: 1.5rem;
+}
+
+.submit input{
+    border:none; 
+    border-radius: 5px; 
+    margin: 20px 0px; 
+    height: 2.5rem; 
+    width: 7rem; 
+    background-color: red; 
+    color: white;
+}
+
+/* Active tab style (red) */
+.active-tab {
+    background-color: red;
+    color: white;
+  }
+  
+  /* Inactive tab style */
+  .inactive-tab {
+    background-color: transparent;
+    color: black;
+  }

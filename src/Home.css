@@ -1,0 +1,110 @@
+
+/* carousel */
+/* Set the width and height of the carousel */
+.slider {
+    width: 100%; /* You can adjust this to your desired width */
+  }
+  
+  .carousel {
+    width: 100%;
+    height: auto; /* You can adjust this to your desired height */
+  }
+  
+  /* Adjust the image dimensions inside the carousel */
+  .carousel-item{
+    width: 100%;
+    object-fit:fill; /* This ensures the image scales within the carousel */
+  }
+  .img-fluid{
+  display: block;
+  width: 100%;
+  }
+  .my-slide{
+    margin: 0;
+    padding: 0;
+  }
+  
+
+/* section4 */
+.section4-row{
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.section4-row .col{
+    display: flex;
+    margin: 2rem 0rem;
+}
+.section4-row .col .section-icon .icon{
+    color: red;
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+.section4-row h5,p{
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+
+/* section5 */
+
+.section5-row {
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top vertically */
+    padding: 0 1.5rem;
+}
+.section5-row .part-1,.part-2{
+    margin-top: 2rem;
+}
+.section5-row .part-1 .section5-img{
+    height: 500px; 
+    width: 400px; 
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.404);
+}
+.section5-row .part-2 .heading{
+    text-decoration: underline;
+    color: rgba(80, 79, 79, 0.582);
+}
+.section5-row .part-2 .sub-heading{
+    font-family: phudu;
+}
+.section5-row .part-2 .paragraph{
+    font-family: poppins;
+    color: rgba(83, 82, 82, 0.849);
+}
+.section5-row .part-2 .button{
+    border: 1px;
+    color:whitesmoke;
+    background-color: red;
+    border-radius: 100px;
+    width: 9rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* section6 */
+
+.section6-row{
+    margin-bottom: 3rem;
+}
+.section6-row .part-1 .col-md-12 .heading{
+    font-family: poppins;
+    margin-top: 8rem;
+    color: red;
+    text-align: center;
+} 
+.section6-row .part-2 .col-md-3{
+    align-content: center;
+    justify-content: flex-end;
+}
+.section6-row .part-2 .col-md-3 .image{
+    width: 100%;
+    margin: 3rem 0rem;
+}
+.section6-row .part-2 .col-md-3 .sub-heading{
+    text-align: center;
+}

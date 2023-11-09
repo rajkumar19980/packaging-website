@@ -1,0 +1,106 @@
+.section1 .container-fluid {
+    background-color: rgb(0, 0, 0);
+    padding-top: 50px;
+    background-image: url(https://st4.depositphotos.com/1008648/24362/i/450/depositphotos_243620558-stock-photo-robot-hand-making-contact-human.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10%;
+}
+
+/* .section1 hr {
+    border: 2px solid rgb(255, 0, 0);
+    width: 100%;
+    margin-top: -10px;
+} */
+
+.section1 h1 {
+    width: auto;
+    text-align: center;
+}
+
+.image-wrap {
+    width: 100%;
+    /* Set the desired width for your image container */
+    height: auto;
+    /* Set the desired height for your image container */
+    margin-bottom: -50px;
+    position: relative;
+}
+
+.image-wrap img {
+    width: 100%;
+    height: 200px;
+    clip-path: polygon(0 0, calc(100% - 5px) 0, calc(100% - 5px) 75%, 0 75%);
+    margin-top: -2.9rem;
+    filter: blur(0.5px);
+}
+
+@media screen and (min-width: 480px) {
+    .FONTSIZE {
+        font-size: 6rem;
+        color: rgb(255, 255, 255);
+        padding-bottom: 1.5rem;
+    }
+}
+
+/* SECTION2 */
+.section2 .container .row{
+padding-top: 30px;
+}
+.section2 .centered-hr{
+    border: 1px solid rgb(0, 0, 0);
+    color: darkred;
+    width: 100%;
+}
+.section2 .col-auto .heading{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 100;
+    margin: -10px;
+}
+
+/* section3 */
+.section3 .row{
+    margin-bottom: 4rem;
+}
+.section3 .img1{
+    width: 100%;
+    height: 420px;
+    background-size:9in;
+    background-position: center;
+    background-image: url(https://svgsilh.com/svg/2754223.svg);
+}
+.section3 .img2{
+    display: flex;
+    height: 500px;
+    justify-items: center;
+    justify-content: center;
+    background-color: black;
+}
+/* .section3 .img2 .img-fluid{
+    width: 100%;
+} */
+.section3 .img3,.img4{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%;
+}
+.section3 .machine{
+    width: 90%;
+    border-radius: 20px;
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.404);
+}
+
+/* section4 */
+.section4 .col{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.section4 .img-fluid{
+    margin-top: -25px;
+    width: 80%;
+}

@@ -1,0 +1,59 @@
+
+/* section 8 */
+.map-inner{
+    margin: 4rem 0rem;
+}
+
+/*section9  */
+.contact-inner{
+    margin: -2rem 5rem;
+}
+.contact-inner .row .col-md-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.contact-inner .row .col-md-4 a{
+    color: red;
+    text-decoration: none;
+}
+.contact-inner .row .col-md-4 a h6{
+    font-size: large;
+    color: rgba(0, 0, 0, 0.568);
+    display: inline;
+    margin-left: 0.5rem;
+}
+
+/* section 10 */
+.section10{
+    background-color: black;
+}
+.section10-row{
+    margin-top: 3rem;
+    padding: 2rem;
+    color: white;
+}
+.section10-row h6{
+    font-size: 14px;
+    font-weight: 100;
+}
+.section10-row .sub-heading{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+.section10-row .col-md-4,.col-md-2{
+    margin: 1rem 0;
+}
+
+
+
+/* section11 */
+.section11{
+    background-color:rgb(196, 23, 23);
+}
+.section11 .section11-nav a{
+    color: white;
+}
